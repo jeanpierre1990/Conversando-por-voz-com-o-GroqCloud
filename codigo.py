@@ -53,7 +53,7 @@ print(transcription)
 
 from groq import Groq #Chama a função do GroqCloud para resposta automatica da IA.
 
-client = Groq(api_key="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")
+client = Groq(api_key="INSIRA_AQUI_SUA_API.KEY_DO_GROQ")
 
 resp = client.chat.completions.create(
     model="llama-3.3-70b-versatile",
